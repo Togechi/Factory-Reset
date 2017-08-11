@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1150585361743584}
+  m_IsPrefabParent: 1
+--- !u!1 &1150585361743584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4047621783559634}
+  - component: {fileID: 114912173375863866}
+  m_Layer: 0
+  m_Name: WaveSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4047621783559634
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150585361743584}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.97169, y: 954.6076, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114912173375863866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150585361743584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7c17c111f5f5b4b9bf4815d932cc0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Waves:
+  - {fileID: 1715460697937896, guid: a1d6170626531e24e81999787cb45cff, type: 2}
+  - {fileID: 1997020539823692, guid: 2458a3330896499469d73d393e347ee6, type: 2}
+  - {fileID: 1443266329145892, guid: 30ab6f3a35dbedc429406472a8b52a71, type: 2}
+  - {fileID: 1191147177999158, guid: 897373fa760422341bb44e04cdd4978d, type: 2}
+  - {fileID: 1950298833351924, guid: 2274528cb3fb5ce4499ddf598a145c97, type: 2}
+  respawnTime:
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  difficultyBonus: {fileID: 0}
