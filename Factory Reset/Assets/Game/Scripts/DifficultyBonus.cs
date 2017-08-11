@@ -7,7 +7,7 @@ public class DifficultyBonus : MonoBehaviour {
     private float difficulty;
     private float healthTimer;
     private float bombTimer;
-    private float healthBonusTime = 0.5f;
+    private float healthBonusTime = 0.09f;
     private float bombBonusTime = 5;
 
     public float healthDiff2 = 75;

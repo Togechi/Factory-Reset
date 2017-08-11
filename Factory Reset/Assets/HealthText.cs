@@ -16,6 +16,6 @@ public class HealthText : MonoBehaviour {
 
     private void Update()
     {
-        healthText.text = Mathf.Round((Fire.currentHealth / Fire.maxHealth * 100)).ToString() + "%";
+        healthText.text = Mathf.Round((Mathf.Clamp(Fire.currentHealth / Fire.maxHealth * 100, 0, 100))).ToString() + "%";
     }
 }
