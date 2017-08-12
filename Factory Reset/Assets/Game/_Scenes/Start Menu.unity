@@ -845,7 +845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: STEM Bullet Hell
+  m_Text: Factory Reset
 --- !u!222 &903096557
 CanvasRenderer:
   m_ObjectHideFlags: 0
