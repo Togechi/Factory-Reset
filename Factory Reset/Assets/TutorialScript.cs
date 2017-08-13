@@ -13,7 +13,7 @@ public class TutorialScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        playAnim = GameObject.Find("PlayerScripts").GetComponent<Animator>();
+        playAnim = GameObject.Find("TutPlayerScripts").GetComponent<Animator>();
         state = 0;
         SetOneActive(state);
         Timer = 0;
@@ -23,7 +23,7 @@ public class TutorialScript : MonoBehaviour {
     void InputCheck()
     {
         if (Input.GetKeyDown(KeyCode.Space) && Timer > 1f && state < tutObjects.Length-1)
-        {
+        { 
             Timer = 0;
             state++;
             SetOneActive(state);
@@ -47,8 +47,8 @@ public class TutorialScript : MonoBehaviour {
         {
             obj.SetActive(false);
         }
-
         tutObjects[nextTut].SetActive(true);
         playAnim.SetInteger("TutorialState", state);
+        print("Set anim");
     }
 }

@@ -1572,16 +1572,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: BombCounter
-      value: 
-      objectReference: {fileID: 1730459191}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 1235703651}
     - target: {fileID: 114262487419471700, guid: 64cefef199b502c44aba09e53edfc8ed,
         type: 2}
       propertyPath: BombCounter
@@ -1592,56 +1582,28 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1235703651}
+    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
+        type: 2}
+      propertyPath: BombCounter
+      value: 
+      objectReference: {fileID: 1730459191}
+    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
+        type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1235703651}
+    - target: {fileID: 95151772218717798, guid: 64cefef199b502c44aba09e53edfc8ed,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 95288953602830338, guid: 64cefef199b502c44aba09e53edfc8ed,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 80bc55f6cd926fd4ca873c654bc9cb51, type: 2}
     - target: {fileID: 4109505103218610, guid: 64cefef199b502c44aba09e53edfc8ed, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4119183107759612, guid: 64cefef199b502c44aba09e53edfc8ed, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: HeavyShot
-      value: 
-      objectReference: {fileID: 8300000, guid: b266552c98e591248868e8056799ddfd, type: 3}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: BombShot
-      value: 
-      objectReference: {fileID: 8300000, guid: f3cd340196fb5c546a9508a399763ab2, type: 3}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: quickFireSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: quickFireRate
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: heavyFireRate
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: heavyFireSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: bombSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114049870190392174, guid: 64cefef199b502c44aba09e53edfc8ed,
-        type: 2}
-      propertyPath: bombRate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1018827813562512, guid: 64cefef199b502c44aba09e53edfc8ed, type: 2}
-      propertyPath: m_IsActive
+      propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

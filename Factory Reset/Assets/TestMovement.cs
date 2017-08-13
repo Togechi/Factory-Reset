@@ -10,7 +10,7 @@ public class TestMovement : MonoBehaviour
     public float Xpadding = 1f;
     public float Ypadding = 1f;
 
-    public float Timer;
+    private float Timer;
 
     public GameObject hitboxSprite;
 

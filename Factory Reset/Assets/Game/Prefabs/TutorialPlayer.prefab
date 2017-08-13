@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 114262487419471700}
   - component: {fileID: 114049870190392174}
   m_Layer: 9
-  m_Name: PlayerScripts
+  m_Name: TutPlayerScripts
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -266,21 +266,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quickFireProjectile: {fileID: 1290223335968496, guid: d1f056491fc574a48be322714e1f733a,
     type: 2}
-  quickFireSpeed: 0
-  quickFireRate: 0
+  quickFireSpeed: 10
+  quickFireRate: 0.1
   heavyFireProjectile: {fileID: 1570062569821342, guid: 98b6e7d4d529b6841b5b1a7f7c26e82a,
     type: 2}
-  heavyFireSpeed: 0
-  heavyFireRate: 0
+  heavyFireSpeed: 10
+  heavyFireRate: 0.3
   bombProjectile: {fileID: 1612651502850234, guid: 1ba35809272f65c488193b0d31db24ec,
     type: 2}
-  bombSpeed: 0
-  bombRate: 0
+  bombSpeed: 3
+  bombRate: 2
   BombCounter: {fileID: 0}
   healthBar: {fileID: 0}
   QuickShot: {fileID: 8300000, guid: e4bd731ef09482348aee09bf160a555e, type: 3}
-  HeavyShot: {fileID: 0}
-  BombShot: {fileID: 0}
+  HeavyShot: {fileID: 8300000, guid: b266552c98e591248868e8056799ddfd, type: 3}
+  BombShot: {fileID: 8300000, guid: f3cd340196fb5c546a9508a399763ab2, type: 3}
 --- !u!114 &114211387367740878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -295,7 +295,6 @@ MonoBehaviour:
   speed: 8
   Xpadding: 0.5
   Ypadding: 1
-  Timer: 0
   hitboxSprite: {fileID: 1018827813562512}
 --- !u!114 &114262487419471700
 MonoBehaviour:
